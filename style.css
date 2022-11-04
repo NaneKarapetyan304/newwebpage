@@ -1,0 +1,1206 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.display_flex{
+    display: flex;
+}
+/* header */
+
+header{
+    line-height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.header{
+    position: relative;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 0px 0px 40px 40px;
+    height: 781px;
+}
+.container{
+    width: 100%;
+}
+.navigation_bar{
+    display: flex;
+}
+.nav{
+    width: 80%;
+}
+form{
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-left: -142px;
+}
+select{
+    border: none;
+    background: none;
+    margin-right: 196px;
+}
+label{
+    text-align: end;
+    margin-top: 7px;
+}
+.star_img{
+    width: 10px;
+    height: 10px;
+    background-color: #D80027;
+    border: none;
+    border-radius: 50%;
+    padding: 4.17px 4.87px;
+}
+.logo{
+    width: 115px;
+    height: 40px;
+    position: absolute;
+    padding-left: 96px;
+    padding-top: 7px;
+    left: -10px;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.background_for_logo{
+    background: #F7DBA7;
+    border-radius: 102px;
+    border: none;  
+    transform: rotate(25.23deg);
+    position: absolute;
+    left: -257.3px;
+    top: -590px;
+    width: 635px;
+    height: 635px;
+}
+.seacrch_icon_8{
+    display: none;
+}
+.navbar_fontstyle{
+    color: #003459;
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 700;
+}
+.search_icon{
+    width: 16.68px;
+    height: 16.66px;
+    position: relative;
+    left: 30px;
+    top: 32px;
+}
+input{
+    height: 44px;
+    margin-top: 19px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 46px;
+    position: static;
+}
+.btn_header{
+    color: #FDFDFD;
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 700;
+    height: 44px;
+    width: 734px;
+    margin-top: 19px;
+    margin-left: 20px;
+    background-color: #003459;
+    border: none;
+    border-radius: 57px;
+}
+/* row in header */
+.img_height{
+    width: 944px;
+    height: 693px;
+    position: relative;
+}
+.first_part{
+    padding-left: 204px;
+    padding-top: 100px;
+}
+.first_banner{
+    background: #F7DBA7;
+    border-radius: 20px;
+    width: 67.1px;
+    height: 67.1px;
+    position: absolute;
+    top: 257px;
+    left: 193PX;
+    transform: rotate(25.23deg);
+}
+.font_style{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002A48;
+    padding-top: 64px;
+     position: relative;
+}
+.font_size{
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #002A48;
+  
+}
+
+.text_about_pets{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242B33;
+    width: 380px;
+    line-height: 24px;
+    text-align: start;
+}
+.button_group{
+    display: flex;
+    margin-top: 34px;
+    width: 50%;
+}
+.btn_viewintro{
+    margin-right: 20px;
+    background: none;
+    border: 1px solid #003459;
+    border-radius: 57px;
+    height: 48px;
+    line-height: 48px;
+    color: #003459; 
+    padding-right: 10px;
+    cursor: pointer;
+}
+.btn_viewintro3{
+    width: 27%;
+    margin-left: 377px;
+    cursor: pointer;
+}
+.icon_view{
+    width: 18px;
+    height: 18px;
+    padding-left: 5px;
+    position: absolute;
+    top: 534px;
+}
+.btn_explore{
+    color: #FDFDFD;
+    background: #003459;
+    border: none;
+    border-radius: 57px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.second_banner{
+    width: 635px;
+    height: 635px;
+    position: absolute;
+    background: #F7DBA7;
+    border-radius: 99px;
+    transform: rotate(60.23deg);    
+    opacity: 0.4;
+    top: 720px;
+}
+.third_banner{
+    width: 19.6px;
+    height: 19.6px;
+    left: 130.2px;
+    top: 80px;
+    background: #F7DBA7;
+    position: relative;
+    border-radius: 4px;
+    transform: rotate(20.79deg);
+}
+.four_banner{
+    position: absolute;
+    width: 27.5px;
+    height: 27.5px;
+    left: 978px;
+    top: 237.68px;
+    background: #F7DBA7;
+    border-radius: 9px;
+    transform: rotate(-22.85deg);
+}
+.five_banner{
+    position: absolute;
+    width: 21.47px;
+    height: 21.47px;
+    left: 976px;
+    top: 246.6px;
+    background: #002A48;
+    border-radius: 6px;
+    transform: rotate(-43deg);
+}
+.six_banner{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    left: 1068.3px;
+    top: 355px;
+    background: #F7DBA7;
+    border-radius: 99px;
+    transform: rotate(25.23deg);
+}
+.last_banner{
+    width: 562px;
+    height: 635px;
+    left: 1014.2px;
+    top: 353px;
+    background: #003459;
+    border-radius: 99px;
+    transform: rotate(9.35deg);
+    position: absolute;
+}
+/* second row */
+.second_row_container{
+    background: #FDFDFD;
+    position: static;
+    width: 80%;
+    margin: 0 auto;
+}
+.text_decoration{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+}
+.second_font_style{
+    color: #003459;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+}
+.btn_viewmore{
+    background: none;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    width: 151px;
+    height: 44px;
+    line-height: 44px;
+    cursor: pointer;
+}
+.right_icon{
+   width: 6.33px ;
+   padding-left: 15px; 
+}
+.cardgroup{
+    display: flex;
+    flex-direction: column;
+}
+.first_line_card_group,.second_line_card_group{
+    display: flex;
+    padding-top: 36px;
+}
+.cards{
+    background: #FDFDFD;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.images_cards{
+    padding: 8px 8px 16px 8px;
+    width: 96%;
+}
+.first_row_card{
+    color: #00171F;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.cards_second_part{
+    width: 50%;
+    padding-left: 16px;
+}
+.gene_and_age,.gene_and_age2{
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #667479;
+}
+.gene_and_age2{
+    width: 40%;
+
+}
+.date_and_gene{
+    font-size: 12px;
+    font-weight: 700;
+    color: #667479;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gene,.age{
+    padding-top: 6px;
+    display: flex;
+}
+.age{
+    width: 20%;
+}
+.gene{
+    padding-right: 15px;
+}
+.price{
+    color: #00171F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-bottom: 20px;
+}
+.second_line_card_group{
+    margin-bottom: 60px;
+}
+/* third row */
+.third_row_container{
+    width: 80%;
+    background-color: #003459;
+    margin: 0 auto;
+    height: 378px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.first_banner_2{
+    width: 787.54px;
+    height: 787.54px;
+    position: relative;
+    left: -173px;
+    top: 184px;
+    background: #002A48;
+    border-radius: 99px;
+    border: none;
+    transform: rotate(28.25deg);
+}
+.second_banner_2{
+    width: 782.29px;
+    height: 635px;
+    left: 765.7px;
+    position: relative;
+    top: -968px;
+    background: #FCEED5;
+    border-radius: 99px;
+    transform: rotate(25.23deg);
+}
+.second_row_third_conatiner{
+    display: flex;
+    position: relative;
+    top: -1394px;
+}
+.left_part_img{
+    height: 342px;
+    width: 513px;
+}
+.second_part_third_row{
+    text-align: end;
+    padding-right: 85px;
+    padding-top: 64px;
+}
+.font_style_for_third_row{
+    color: #003459;
+    font-weight: 800;
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+}
+.font_style2{
+    color: #003459;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+}
+.text_about_pets2{
+    width: 394px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #242B33;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    padding-left: 310px;
+    
+}
+.button_group2{
+    display: flex;
+    padding-top: 24px;
+}
+.btn_explore2{
+    width: 163px;
+    height: 48px;
+}
+/* forth row */
+.forth_row_container{
+    background-color: white;
+    width: 100%;
+}
+.width{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn_viewmore_2{
+    margin-top: 70px;
+}
+.second_card_group{
+    width: 80%;
+    margin: 0 auto;
+}
+.cards_second_part2{
+    width: 100%;
+    padding-left: 16px;
+}
+.full_stop{
+    width: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: -65px;
+}
+.gift_row{
+    background-color: #FCEED5;
+    border-radius: 8px;
+    border: none;
+    text-align: start;
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+.gift_img{
+    width: 17.46px;
+    height: 18.73px;
+}
+.second_img{
+    width: 513px;
+    height: 342px;
+    position: relative;
+}
+.video_icon{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 5px;
+    left: 14px;
+}
+.full_stop_2{
+    color: #003459;
+    width: 4px;
+    height: 4px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gene2{
+    display: flex;
+    width: 50%;
+}
+.toys_style{
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #002A48;
+}
+.cards_img{
+    border-radius: 19px;
+}
+
+
+/* fifth row */
+.fifth_row_container{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+.btn_viewmore_3{
+    width: 201px;
+    height: 44px;
+    background: none;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    line-height: 44px;
+}
+.image_group{
+    padding-top: 43px;
+    margin-left: -40px;
+}
+.iconimg{
+    width: 116px;
+    height: 72px;
+    padding-left: 113px;
+}
+/* sixth row */
+.sixth_row_container{
+    margin-top: 64px;
+    overflow: hidden;
+}
+.secondpart_banner{
+    background: #FFB775;
+    border-radius: 20px;
+    margin-top: 68px;
+    overflow: hidden;
+    height: 364px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+}
+.banners_first_part{
+    padding-top: 64px;
+    padding-left: 85px;
+}
+.banner_for_lastpart{
+    position: absolute;
+    width: 782.29px;
+    height: 635px;
+    left: -200px;
+    top: -223px;
+    background: #FCEED5;
+    border-radius: 99px;
+    transform: matrix(-0.9, 0.43, 0.43, 0.9, 0, 0);
+}
+.position{
+    position: relative;
+}
+.dogfoot{
+    width: 42px;
+    height: 38px;
+}
+.text_about_pets3{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242B33;
+    text-align: start;
+    padding-top: 8px;
+    padding-bottom: 42px;
+    height: 36px;
+    line-height: 18px;
+}
+.btn_epxlore_last{
+    margin-right: 20px;
+}
+.last_banner_last_part{
+    position: absolute;
+    width: 1078.5px;
+    height: 561.5px;
+    left: 473.5px;
+    top: 219.7px;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    opacity: 0.3;
+    border-radius: 99px;
+    transform: matrix(-0.88, 0.47, 0.47, 0.88, 0, 0);
+}
+.img_second_part{
+    height: 362.79px;
+    position: relative;
+}
+
+
+/* seventh row */
+.three_cards{
+    margin-top: 28px;
+}
+.last_card_img{
+    width: 449px;
+    height: 279px;
+    border: none;
+    border-radius: 18px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.pet_knowledge{
+    font-weight: 700;
+    font-size: 10px;
+    color: #FDFDFD;
+    background-color: #00A7E7;
+    border-radius: 28px;
+    border: none;
+    height: 20px;
+    margin-left: 16px;
+    margin-top: 13px;
+    width: 120px;
+}
+.row_for_mobile{
+    display: none;
+}
+.last_card_text{
+    font-size: 19px;
+}
+.text_style{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #242B33;
+    padding-left: 16px;
+    width: 452px;
+    padding-top: 6px;
+}
+/* footer */
+footer{
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 40px 40px 0px 0px;
+    padding-top: 80px;
+    margin-top: 60px;
+}
+.footers_first_line{
+    background: #003459;
+    border-radius: 16px;
+    height: 136px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 32px;
+    margin-bottom: 40px;
+}
+.footers_left_part{
+    width: 389px;
+    height: 72px;
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding-top: 17px;
+  
+}
+.input_group{
+    width: 67%;
+    margin-top: 17px;
+    background-color: #FFFFFF;
+    height: 72px;
+    line-height: 72px;
+    margin-left: 32px;
+    padding-bottom: 12px;
+    border: none;
+        border-radius: 14px;
+}
+.email_input{
+    border: 1px solid #99A2A5;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.submit_input{
+    color: #FDFDFD;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px; 
+    background: #003459;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 341px;
+    height: 48px;
+    cursor: pointer;
+}
+.padding{
+    padding-left: 60px;
+}
+.icons_in_footer{
+    width: 24px;
+    height: 24px;
+    padding-left: 40px;
+}
+.line_in_footer{
+    height: 1px;
+    width: 80%;
+    background-color: #667479;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.text_decoration2{
+    color: #667479;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footers_last_part{
+    justify-content: space-between;
+}
+.logo2{
+    width: 115px;
+    height: 40px;
+    text-align: center;
+
+}
+.footers_third_part{
+    text-align: end;
+}
+.footers_text_style{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #667479;
+    padding-left: 33px;
+}
+.navbar_footer{
+    text-decoration: none;
+    color: #00171F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.icons_align{
+    text-align: end;
+}
+.input{
+    width: 0;
+}
+
+
+
+@media (max-width: 400px) {
+    .background_for_logo{
+        top: -591px;
+        left: -174px;
+    }
+    .logo{
+        position: absolute;
+        left: 50px;
+        top: 19px;
+        padding-left: 0;
+        left: 72px;
+        
+    }
+    .third_row_container{
+        margin-top: 48px;
+        width: 95%;
+    }
+    .second_banner_2{
+        left: -212.3px;
+        top: -1082px;
+        transform: rotate(11.23deg);
+    }
+    .second_part_third_row{
+        text-align: center;
+        padding-right: 85px;
+        position: absolute;
+        padding-top: 0;
+    }
+    .btn_viewintro3{
+        margin-left: 40px;
+        width: 39%;
+        cursor: pointer;
+    }
+    .text_about_pets2{
+        padding-left: 2px;
+        text-align: center;
+        width: 356px;
+        font-size: 12px;
+    }
+    .third_row_container{
+        height: 640px;
+    }
+    .left_part_img{
+        position: relative;
+        top: 270px;
+        left: -20px;
+    }
+    .first_banner_2{
+        top: 542px
+    }
+    .cardgroup{
+        width: 99%;
+    }
+    .second_row_container{
+        width: 100%;
+    }
+    .first_line_card_group,.second_line_card_group,.view-for-media{
+        flex-direction: column;
+    }
+    .view-for-media{
+        height: 112px;
+    }
+    .first_line_card_group{
+        overflow: hidden;
+    }
+    .cards{
+        overflow: hidden;
+    }
+    .btn_viewmore_2{
+        position: relative;
+        top: 1404px;
+        width: 95%;
+    }
+    .images_cards{
+        width: 88%;
+        border-radius: 18px;
+      }
+    .footers_first_line{
+        display:flex;
+        flex-direction: column;
+        font-size: 18px;
+        width: 95%;
+        height: 253px;
+    }
+    .logo_2{
+        position: relative;
+        top: -20px;
+        left: 103px;
+        width: 40px;
+    }
+    .footers_first_part{
+        text-align: center;
+        position: relative;
+        top: 66px;
+        font-size: 13px;
+    }
+    .footers_third_part {
+        text-align: center;
+        position: relative;
+        top: -20px;
+        left: -20px;
+      }
+    .footers_last_part{
+        display: block;
+      }
+    .footer_navbar{
+        display: block;
+    }
+    .last_card_text{
+        font-size: 14px
+    }
+    .icons_align{
+        text-align: start;
+        padding-top: 25px;
+    }
+    .submit_input{
+        width: 95%;
+        position: relative;
+        top: -27px;
+    }
+    .footers_left_part{
+        width: auto;
+    }
+    .email_input{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .input_group{
+        width: 95%;
+        height: 115px;
+        line-height: 82px;
+        margin-left: 13px;
+        display: block;
+    }
+    .text_style{
+        width: 326px;
+    }
+    .btn{
+        position: absolute;
+        top: 2466px;
+        width: 96%;
+        margin-left: 11px;
+        cursor: pointer;
+    }
+    .search_icon{
+        left: 461px;
+        top: 44px;
+        width: 23px;
+        height: 23px;
+        cursor: pointer;
+    }
+    .searchinput,.joincommunity,.first_banner,form,.second_banner,.forth_row_container,.fifth_row_container,.sixth_row_container{
+        display: none;
+    }
+    .last_card_img{
+        width: 340px;
+        height: 293px;
+    }
+    .three_cards{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cards{
+        width: 94%;
+        margin-bottom: 20px;
+        padding-bottom: 16x;
+        margin-right: 2px;
+        margin-left: 10px;
+    }
+    .seventh_row_container{
+        width: 98%;
+    }
+    .font_style{
+        text-align: start;
+        width: 100%;
+        font-size: 46px;
+    }
+    .first_part{
+        padding-left: 0;
+        padding-top: 14px;
+        padding-left: 15px;
+    }
+    .font_size{
+        font-size: 25px;
+        margin-top: -21px;
+    }
+    .button_group{
+        width: 79%;
+    }
+    .icon_view{
+        padding-left: 13px;
+        top: 417px;
+    }
+    .third_banner{
+        left: -34.8px;
+        top: 132px;
+    }
+    .five_banner{
+        left: 280px;
+        top: 242.6px;
+    }
+    .four_banner{
+        position: relative;
+        left: -114px;
+        top: 136.7px;
+    }
+    .img_height{
+        left: -52px;
+        top: 506px;
+        position: absolute;
+        width: 546px;
+        height: 413px;
+    }
+    .six_banner{
+        left: 31.3px;
+        top: 613px;
+    }
+    .last_banner{
+        left: 0.2px;
+        top: 648px;
+    }
+    .responsive{
+        display: block;
+        cursor: pointer;
+        margin-top: 38px;
+        margin-left: 24px;
+        width: 35px;
+        height: 40px;
+        position: relative;
+    }
+    .navbar_lines{
+        width: 30px;
+        height: 3px;
+        background-color: #002A48;
+        margin: 6px 0;
+    }
+    .nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        overflow: hidden;
+
+    }
+    .navigation_bar{
+        display: none;
+    }
+    .nav ul{
+        display: flex;
+        width: fit-content;
+        opacity: 0;
+        margin: 0 auto;
+    }
+    .padding_li{
+        padding-right: 28px;
+    }
+    li{
+        cursor: pointer;
+    }
+    .padding_p{
+        display: none;
+    }
+    .padding{
+        padding-left: 30px;
+    }
+    .flex_direction{
+        flex-direction: column;
+    }
+    .nav.active{
+        height: 59px;
+        text-align: center;
+        position: absolute;
+    }
+    .nav.active ul{
+        opacity: 1;
+    }
+    .seacrch_icon_8{
+        width: 49px;
+        display: block;
+        height: 35px;
+        position: absolute;
+        right: -8px;
+        top: 41px;
+    }
+    .header_second_row{
+        display: none;
+    }
+    .row_for_mobile{
+        display: block;
+        background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+        width: 100%;
+        position: relative;
+        top: -99px;
+    }
+    .header{
+        height: 915px;
+        border-radius: 0 0 40px 40px ;
+    }
+    .age{
+        width: 32%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:900px) {
+    .header{
+        width: 100%;
+        margin: 0 auto;
+        height: 878px;
+    }
+    .img_height{
+        width: 562px;
+        position: absolute;
+        left: 125px;
+        top: 493px;
+        height: 438px;
+    }
+    .first_banner{
+        display: none;
+    }
+    .first_part{
+        text-align: center;
+        padding-left: 0;
+    }
+    .button_group{
+        margin: 34px auto;
+    }
+    .text_about_pets{
+        width: 712px;
+        text-align: center;
+    }
+    .responsive{
+        display: block;
+        cursor: pointer;
+        margin-left: 24px;
+        width: 35px;
+        height: 40px;
+        position: absolute;
+        top: 14px;
+    }
+    .second_row_container{
+        width: 96%;
+        overflow: hidden;
+    }
+    .iconimg{
+        padding-left: 5px;
+    }
+    .three_cards{
+        flex-direction: column; 
+        width: 59%;
+        margin: 20px auto;
+    }
+    .cards{
+        margin-bottom: 20px;
+    }
+    .icon_view{
+        padding-left: 17px;
+        top: 423px;
+    }
+    .width{
+        width: 99%;
+       
+    }
+    .navbar_lines{
+        width: 30px;
+        height: 3px;
+        background-color: #002A48;
+        margin: 6px 0;
+    }
+    .logo{
+        padding-left: 0;
+        position: absolute; 
+        top: 6px;
+        left: 149px;
+    }
+    .seacrch_icon_8{
+        width: 49px;
+        display: block;
+        height: 35px;
+        position: absolute;
+        right: -8px;
+        top: 28px;
+    }
+    .nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        overflow: hidden;
+
+    }
+    .nav ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        opacity: 0;
+    }
+    .nav.active{
+        height: 487px;
+        text-align: center;
+        position: relative;
+        left: -50px;
+    }
+    .nav.active ul{
+        opacity: 1;
+    }
+    .navigation_bar{
+        display: none;
+    }
+    .footers_left_part{
+        font-size: 21px;
+        padding-left: 162px;
+        text-align: center;
+        padding-top: 0;
+    }
+    .footers_first_line{
+        flex-direction: column;
+        height: 179px;
+    }
+    .logo_2{
+        text-align: center;
+    }
+    .gene2{
+        width: 72%;
+    }
+    .cards_second_part2{
+        flex-direction: column;
+    }
+    .age{
+        width: 40%;
+    }
+    .input_group{
+        margin-top: 2px;
+        margin-left: 107px;
+    }
+    .padding2{
+        padding-left: 30px;
+    }
+    .second_card_group{
+        width: 100%;
+    }
+}
+
