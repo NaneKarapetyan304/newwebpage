@@ -757,7 +757,9 @@ footer{
 .input{
     width: 0;
 }
-
+.mobile{
+    display: none;
+}
 
 
 @media (max-width: 400px) {
@@ -1078,6 +1080,9 @@ footer{
         width: 18%;
         padding-left: 0;
     }
+    .first_row_card{
+        font-size: 14px;
+    }
     .font_style2{
         font-size: 16px;
     }
@@ -1095,8 +1100,8 @@ footer{
         font-size: 15px;
     }
     .footers_left_part{
-        width: 98%;
-        font-size: 15px;
+        width: 94%;
+        font-size: 14px;
         padding-top: 0;
     }
     input{
@@ -1104,10 +1109,14 @@ footer{
     }
     .input_group{
         width: 87%;
+        margin: 0 auto;
+    }
+    .padding{
+        padding-left: 49px;
     }
     .logo{
         padding-left: 0;
-        left: 38%;
+        left: 30%;
         position: absolute;
         top: 2%;
     }
@@ -1127,12 +1136,34 @@ footer{
         flex-direction: column;
     }
     .img_height{
-        width: 86%;
+        width: 95%;
         height: auto;
         left: 6%;
+        top: 9%;
     }
     .button_group{
         width: 95%;
+    }
+    .input_group{
+        flex-direction: column;
+        width: 95%;
+        height: 125px;
+        margin-bottom: 10px;
+    }
+    .footers_first_line{
+        width: 95%;
+        height: 185px;
+    }
+    .email_input{
+        width: 90%;
+        margin: 11px auto;
+    }
+    .submit_input{
+        width: 95%;
+        margin:0 auto;
+    }
+    .padding{
+        padding-left: 42px;
     }
     .first_part{
         padding-left: 0;
@@ -1154,8 +1185,45 @@ footer{
         background-color: #002A48;
         margin: 6px 0;
     }
-    .img_second_part,.background_for_logo,.searchinput,.btn_header,.search_icon,.first_banner,.image_group{
+    .mobile{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .second_font_style{
+        font-size: 22px;
+    }
+    .padding_p,.display_none_btn,.btn_viewmore_2,.img_second_part,.background_for_logo,.searchinput,.btn_header,.search_icon,.first_banner,.image_group,.second_card_group,.forth_row_container,.fifth_row_container,.sixth_row_container{
         display: none;
+    }
+    .age{
+        width: 44%;
+    }
+    .third_row_container{
+        height: 640px;
+        flex-direction: column;
+    }
+    .left_part_img {
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: 274px;
+        left: -18%;
+      }
+    .text_about_pets2{
+        text-align: center;
+        padding-left: 0;
+        font-size: 12px;
+        width: 100%;
+    }
+    .second_part_third_row{
+        text-align: center;
+    }
+    .second_banner_2{
+        left: -359.3px;
+        top: -1102px;
+        transform: rotate(10.23deg);
     }
     .seacrch_icon_8{
         width: 49px;
@@ -1206,9 +1274,10 @@ footer{
     .navigation_bar{
         display: none;
     }
-    
-   
-    
+    .cards{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (min-width:500px) and (max-width:900px) {
     .header{

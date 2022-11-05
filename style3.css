@@ -775,6 +775,9 @@ footer{
     }
 }
 @media screen and (min-width:400px) and (max-width:500px){
+    .header{
+        display: none;
+    }
     .logo{
         left: 10%;
     }
@@ -843,8 +846,43 @@ footer{
     .product_detail{
         border: none;
         padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+        width: 100%;
         margin: 0;
         flex-direction: column;
+    }
+    .mobile_svg_arrow{
+        display: block;
+        width: 11px;
+        height: 10px;
+        position: absolute;
+        top: 3%;
+        left: 3%;
+    }
+    .mobile_svg{
+        display: block;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 3%;
+        left: 91%;
+    }
+    .email_input{
+        width: 87%;
+        height: 61px;
+        margin: 11px auto;
+    }
+    .submit_input{
+        width: 94%;
+        margin: 0 auto;
+        height: 61px;
+    }
+    .input_group{
+        height: 105px;
+        flex-direction: column;
+        width: 91%;
+        margin: 0 auto;
     }
     .first_part{
         width: 97%;
@@ -856,7 +894,8 @@ footer{
         width: 100%;
     }
     .div_slideshow{
-        width: 25%;
+        width: 32%;
+        padding-bottom: 28px;
     }
     .forth_row_container{
         width: 100%;
@@ -864,21 +903,23 @@ footer{
         flex-direction: column;
     }
     .first_list_last_chald{
-        padding-bottom: 111px;
+        padding-bottom: 71px;
     }
     .padding_left{
         padding-left: 0;
         text-align: center;
     }
+    .about_health{
+        width: 94%;
+    }
     .footers_first_line{
         flex-direction: column;
         height: 214px;
+        width: 95%;
     }
     .footers_left_part{
         padding-top: 0;
         font-size: 16px;
-    }
-    .input_group{
         width: 80%;
     }
     .footer_navbar{
@@ -890,6 +931,9 @@ footer{
     }
     .logo2{
         padding-left: 0;
+    }
+    .list{
+        overflow: hidden;
     }
 }
 @media screen and (min-width:500px) and (max-width:900px) {

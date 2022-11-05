@@ -69,9 +69,9 @@
     </header>
     <div class="second_row_container">
         <p class="text_decoration">Whats new?</p>
-        <div style="display: flex;">
+        <div class="display_flex flex_direction">
             <p class="second_font_style">Take A Look At Some Of Our Pets</p>
-            <button class="btn_viewmore btn">View more <img src="/img/Vector.png" class="right_icon"></button>
+            <button class="btn_viewmore btn display_none_btn">View more <img src="/img/Vector.png" class="right_icon"></button>
         </div>
         <div class="cardgroup">
             <div class="first_line_card_group">
@@ -215,6 +215,8 @@
                 </div>
             </div>
         </div>
+        <button class="btn_viewmore btn mobile">View more <img src="/img/Vector.png" class="right_icon"></button>
+
     </div>
     <div class="third_row_container">
         <div class="first_banner_2"></div>
@@ -246,155 +248,163 @@
         </div>
         <div class="cardgroup second_card_group ">
            <div class="first_line_card_group">
-                <div class="cards">
-                    <img src="/img/firstproduct.png" class="images_cards cards_img">
-                    <p class="first_row_card">Reflex Plus Adult Cat Food <br> Salmon</p>
-                    <div class=" cards_second_part2 display_flex">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Dog Food</p>
+                <div class="display_flex">
+                    <div class="cards">
+                        <img src="/img/firstproduct.png" class="images_cards cards_img">
+                        <p class="first_row_card">Reflex Plus Adult Cat Food <br> Salmon</p>
+                        <div class=" cards_second_part2 display_flex">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Dog Food</p>
+                            </div>
+                            <span class="full_stop">.</span>
+                            <div class="age">
+                                <p class="gene_and_age2 ">Size:</p>
+                                <p class="date_and_gene">365gm</p>
+                            </div>
                         </div>
-                        <span class="full_stop">.</span>
-                        <div class="age">
-                            <p class="gene_and_age2 ">Size:</p>
-                            <p class="date_and_gene">365gm</p>
+                        <p class="price">140.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
                         </div>
                     </div>
-                    <p class="price">140.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
+                    <div class="cards">
+                        <img src="/img/secondproduct.png" class="images_cards cards_img">
+                        <p class="first_row_card">Reflex Plus Adult Cat Food <br> Salmon</p>
+                        <div class=" cards_second_part2 display_flex">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Cat Food</p>
+                            </div>
+                            <span class="full_stop">.</span>
+                            <div class="age">
+                                <p class="gene_and_age2 ">Size:</p>
+                                <p class="date_and_gene">1.5kg</p>
+                            </div>
+                        </div>
+                        <p class="price">165.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
+                        </div>
                     </div>
                 </div>
-                <div class="cards">
-                    <img src="/img/secondproduct.png" class="images_cards cards_img">
-                    <p class="first_row_card">Reflex Plus Adult Cat Food <br> Salmon</p>
-                    <div class=" cards_second_part2 display_flex">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Cat Food</p>
+                <div class="display_flex">
+                    <div class="cards"> 
+                        <img src="/img/thirdproduct.png" class="images_cards cards_img">
+                        <p class="first_row_card">Cat scratching ball toy kitten <br> sisal rope ball</p>
+                        <div class="cards_second_part2">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Toy</p>
+                            </div>
                         </div>
-                        <span class="full_stop">.</span>
-                        <div class="age">
-                            <p class="gene_and_age2 ">Size:</p>
-                            <p class="date_and_gene">1.5kg</p>
+                        <p class="price">1.100.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
                         </div>
-                    </div>
-                    <p class="price">165.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                    </div>
+                    </div>    
+                    <div class="cards">
+                        <img src="/img/fourthproduct.png" class="images_cards cards_img">
+                        <p class="first_row_card" >Cute Pet Cat Warm Nest</p>
+                        <div class="cards_second_part2">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Toy</p>
+                            </div>
+                        </div>
+                        <p class="price">410.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
+                        </div>
+                    </div>   
                 </div>
-                <div class="cards"> 
-                    <img src="/img/thirdproduct.png" class="images_cards cards_img">
-                    <p class="first_row_card">Cat scratching ball toy kitten <br> sisal rope ball</p>
-                    <div class="cards_second_part2">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Toy</p>
-                        </div>
-                    </div>
-                    <p class="price">1.100.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                   </div>
-                </div>
-                <div class="cards">
-                    <img src="/img/fourthproduct.png" class="images_cards cards_img">
-                    <p class="first_row_card" >Cute Pet Cat Warm Nest</p>
-                    <div class="cards_second_part2">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Toy</p>
-                        </div>
-                    </div>
-                    <p class="price">410.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                   </div>
-                </div>   
             </div>
             <div class="second_line_card_group">
-                <div class="cards">
-                    <img src="/img/fivethproduct.png" class="images_cards cards_img">
-                    <p class="first_row_card">NaturVet Dogs - Omega-Gold <br> Plus Salmon Oil</p>
-                    <div class=" cards_second_part2 display_flex">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Dog Food</p>
+                <div class="display_flex">
+                    <div class="cards">
+                        <img src="/img/fivethproduct.png" class="images_cards cards_img">
+                        <p class="first_row_card">NaturVet Dogs - Omega-Gold <br> Plus Salmon Oil</p>
+                        <div class=" cards_second_part2 display_flex">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Dog Food</p>
+                            </div>
+                            <span class="full_stop">.</span>
+                            <div class="age">
+                                <p class="gene_and_age2 ">Size:</p>
+                                <p class="date_and_gene">365gm</p>
+                            </div>
                         </div>
-                        <span class="full_stop">.</span>
-                        <div class="age">
-                            <p class="gene_and_age2 ">Size:</p>
-                            <p class="date_and_gene">365gm</p>
+                        <p class="price">350.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
                         </div>
                     </div>
-                    <p class="price">350.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                   </div>
+                    <div class="cards">
+                        <img src="/img/sixth.png" class="images_cards cards_img">
+                        <p class="first_row_card">Costumes Fashion Pet Clother <br> Cowboy Rider</p>
+                        <div class=" cards_second_part2 display_flex">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Costume</p>
+                            </div>
+                            <span class="full_stop">.</span>
+                            <div class="age">
+                                <p class="gene_and_age2 ">Size:</p>
+                                <p class="date_and_gene">1.5kg</p>
+                            </div>
+                        </div>
+                        <p class="price">500.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="cards">
-                    <img src="/img/sixth.png" class="images_cards cards_img">
-                    <p class="first_row_card">Costumes Fashion Pet Clother <br> Cowboy Rider</p>
-                    <div class=" cards_second_part2 display_flex">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Costume</p>
+                <div class="display_flex">
+                    <div class="cards">
+                        <img src="/img/seventh.png" class="images_cards cards_img">
+                        <p class="first_row_card">Costumes Chicken Drumsti ck <br> Headband</p>
+                        <div class="cards_second_part2 display_flex">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Costume</p>
+                            </div>
                         </div>
-                        <span class="full_stop">.</span>
-                        <div class="age">
-                            <p class="gene_and_age2 ">Size:</p>
-                            <p class="date_and_gene">1.5kg</p>
-                        </div>
-                    </div>
-                    <p class="price">500.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                   </div>
-                </div>
-                <div class="cards">
-                    <img src="/img/seventh.png" class="images_cards cards_img">
-                    <p class="first_row_card">Costumes Chicken Drumsti ck <br> Headband</p>
-                    <div class="cards_second_part2 display_flex">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Costume</p>
+                        <p class="price">400.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
                         </div>
                     </div>
-                    <p class="price">400.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                   </div>
-                </div>
-                <div class="cards">
-                    <img src="/img/eigthproduct.png" class="images_cards cards_img">
-                    <p class="first_row_card">Plush Pet Toy</p>
-                    <div class="cards_second_part2 display_flex">
-                        <div class="gene gene2">
-                            <p class="gene_and_age2">Product:</p>
-                            <p class="date_and_gene">Toy</p>
+                    <div class="cards">
+                        <img src="/img/eigthproduct.png" class="images_cards cards_img">
+                        <p class="first_row_card">Plush Pet Toy</p>
+                        <div class="cards_second_part2 display_flex">
+                            <div class="gene gene2">
+                                <p class="gene_and_age2">Product:</p>
+                                <p class="date_and_gene">Toy</p>
+                            </div>
+                        </div>
+                        <p class="price">250.000 VND</p>
+                        <div class="gift_row">
+                            <img src="/img/gift.png" class="gift_img">
+                            <img src="/img/Frame 50.png" class="full_stop_2">
+                            <span class="toys_style">Free Toy & Free Shaker</span>
                         </div>
                     </div>
-                    <p class="price">250.000 VND</p>
-                    <div class="gift_row">
-                        <img src="/img/gift.png" class="gift_img">
-                        <img src="/img/Frame 50.png" class="full_stop_2">
-                        <span class="toys_style">Free Toy & Free Shaker</span>
-                   </div>
                 </div>
             </div>
         </div>
@@ -467,6 +477,8 @@
                 <p class="text_style">Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog.</p>
             </div>
         </div>
+        <button class="btn_viewmore btn mobile">View more <img src="/img/Vector.png" class="right_icon"></button>
+
     </div>
     <footer>
         <div class="display_flex footers_first_line">
