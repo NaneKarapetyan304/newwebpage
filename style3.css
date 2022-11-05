@@ -774,7 +774,125 @@ footer{
         width: 34%;
     }
 }
-@media screen and (min-width:400px) and (max-width:900px) {
+@media screen and (min-width:400px) and (max-width:500px){
+    .logo{
+        left: 10%;
+    }
+    .logo2{
+        margin-left: 0;
+    }
+    .responsive{
+        display: block;
+        cursor: pointer;
+        margin-top: 25px;
+        margin-left: 24px;
+        width: 35px;
+        height: 40px;
+    }
+    .navbar_lines{
+        width: 30px;
+        height: 3px;
+        background-color: #002A48;
+        margin: 6px 0;
+    }
+    .seacrch_icon_8{
+        width: 49px;
+        display: block;
+        height: 35px;
+        position: absolute;
+        right: -8px;
+        top: 28px;
+    }
+    .nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        overflow: hidden;
+
+    }
+    .nav ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        opacity: 0;
+    }
+    .nav.active{
+        height: 487px;
+        text-align: center;
+        position: relative;
+        left: -50px;
+    }
+    .nav.active ul{
+        opacity: 1;
+    }
+    .navigation_bar{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .column{
+        padding-left: 2px;
+    }
+    .right_part{
+        padding-left: 0;
+        width: 100%;
+    }
+    .product_detail{
+        border: none;
+        padding-right: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    .first_part{
+        width: 97%;
+    }
+    .btn_group{
+        width: 86%;
+    }
+    .third_row_container{
+        width: 100%;
+    }
+    .div_slideshow{
+        width: 25%;
+    }
+    .forth_row_container{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .first_list_last_chald{
+        padding-bottom: 111px;
+    }
+    .padding_left{
+        padding-left: 0;
+        text-align: center;
+    }
+    .footers_first_line{
+        flex-direction: column;
+        height: 214px;
+    }
+    .footers_left_part{
+        padding-top: 0;
+        font-size: 16px;
+    }
+    .input_group{
+        width: 80%;
+    }
+    .footer_navbar{
+        flex-direction: column;
+    }
+    .icons_align{
+        text-align: start;
+        padding-top: 15px;
+    }
+    .logo2{
+        padding-left: 0;
+    }
+}
+@media screen and (min-width:500px) and (max-width:900px) {
     .header{
         width: 88%;
         margin: 0 auto;
@@ -851,7 +969,7 @@ footer{
         padding-left: 30px;
     }
 }
-@media screen and (max-width:900px) and (min-width:400px) {
+@media screen and (max-width:900px) and (min-width:500px) {
     .product_detail {
         width: 100%;
         border: none;
