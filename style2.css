@@ -866,9 +866,10 @@ footer{
     }
     .footers_left_part{
         width: auto;
+        font-size: 19px;
     }
     .email_input{
-        width: 90%;
+        width: 88%;
         padding-left: 20px;
         height: 48px;
     }
@@ -889,7 +890,7 @@ footer{
         height: 253px;
     }
     .dropdown{
-        width: 54%;
+        width: 71%;
     }
 }
 @media screen and (max-width:900px ) and (min-width:500px){

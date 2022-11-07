@@ -634,7 +634,7 @@ footer{
     }
     .about_health{
         position: absolute;
-        top: 1327px;
+        top: 1365px;
         width: 85%;
         margin-left: 18px;
         display: block;
@@ -685,6 +685,8 @@ footer{
     .images_cards{
         width: 88%;
         border-radius: 18px;
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius:27px ;
     }
     .cards{
         overflow: hidden;
@@ -713,6 +715,7 @@ footer{
     }
     .footers_left_part{
         width: auto;
+        font-size: 19px;
     }
     .input_group{
         width: 95%;
@@ -996,9 +999,6 @@ footer{
     .navigation_bar{
         display: none;
     }
-
-
-
     .footers_left_part{
         font-size: 21px;
         padding-left: 162px;
