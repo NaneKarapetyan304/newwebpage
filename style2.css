@@ -195,7 +195,7 @@ li{
     position: absolute;
     width: 1023.4px;
     height: 799.52px;
-    left: 691.2px;
+    left: 718.2px;
     top: -42px;
     background: #002A48;
     border-radius: 99px;
@@ -247,8 +247,8 @@ li{
 .left_part{
     width: 51%;
     position: relative;
-    left: 7%;
-    top: 127px;
+    left: 4%;
+    top: 56px;
 }
 .second_row_container{
     width: 88%;
@@ -280,7 +280,7 @@ li{
     height: 16px;
     background-color: #FFF;
     margin-right: 10px;
-    margin-left: -201px;
+    margin-left: -363px;
     line-height: 16px;
     border: 1px solid #CCD1D2;
     border-radius: 4px;
@@ -402,8 +402,8 @@ li{
     box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
     margin-right: 20px;
-    margin-left: 24px;
     margin-top: 14px;
+    width: 34%;
 }
 .images_cards{
     padding: 8px 8px 16px 8px;
@@ -461,8 +461,14 @@ li{
     padding-top: 7px;
     padding-bottom: 7px;
 }
-.first_card{
-    width: 44%;
+.poodle{
+    width: 48%;
+}
+.justify{
+    justify-content: space-between;
+}
+.cards_spacebetween{
+    width: 50%;
 }
 .card_row_for_media{
     display: none;

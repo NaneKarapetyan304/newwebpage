@@ -29,9 +29,12 @@ header{
 }
 .nav{
     width: 100%;
+    margin-left: -329px;
 }
 form{
     display: flex;
+    width: 47%;
+    margin-right: 50px;
 }
 ul{
     list-style: none;
@@ -303,7 +306,7 @@ input{
     background: #FDFDFD;
     box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
-    width: 44%;
+    width: 50%;
     margin-right: 15px;
 }
 .images_cards{
@@ -399,6 +402,8 @@ input{
 .left_part_img{
     height: 342px;
     width: 513px;
+    position: relative;
+    top: 3%;
 }
 .second_part_third_row{
     text-align: end;
@@ -731,8 +736,8 @@ footer{
 .logo2{
     width: 115px;
     height: 40px;
-    text-align: center;
-
+    position: relative;
+    left: 42%;
 }
 .footers_third_part{
     text-align: end;
@@ -1098,6 +1103,7 @@ footer{
         height: 487px;
         text-align: center;
         position: relative;
+        left: 82%;
     }
     .nav.active ul{
         opacity: 1;

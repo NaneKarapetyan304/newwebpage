@@ -634,7 +634,7 @@ footer{
     }
     .about_health{
         position: absolute;
-        top: 1365px;
+        top: 1330px;
         width: 85%;
         margin-left: 18px;
         display: block;
@@ -778,7 +778,7 @@ footer{
     }
 }
 @media screen and (min-width:400px) and (max-width:500px){
-    .header{
+    .header,.navbar_leftpart{
         display: none;
     }
     .logo{
@@ -913,7 +913,11 @@ footer{
         text-align: center;
     }
     .about_health{
-        width: 94%;
+        width: 87%;
+        flex-direction: column;
+        top: 1330px;
+        margin-left: 18px;
+        position: absolute;
     }
     .footers_first_line{
         flex-direction: column;
